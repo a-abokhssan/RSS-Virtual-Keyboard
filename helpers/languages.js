@@ -334,8 +334,8 @@ export default {
   ru: [
     [
       {
-        small: '`',
-        shift: '~',
+        small: 'ё',
+        shift: 'Ё',
         code: 'Backquote',
       },
       {
@@ -345,17 +345,17 @@ export default {
       },
       {
         small: '2',
-        shift: '@',
+        shift: '"',
         code: 'Digit2',
       },
       {
         small: '3',
-        shift: '#',
+        shift: '№',
         code: 'Digit3',
       },
       {
         small: '4',
-        shift: '$',
+        shift: ';',
         code: 'Digit4',
       },
       {
@@ -365,12 +365,12 @@ export default {
       },
       {
         small: '6',
-        shift: '^',
+        shift: ':',
         code: 'Digit6',
       },
       {
         small: '7',
-        shift: '&',
+        shift: '?',
         code: 'Digit7',
       },
       {
@@ -472,7 +472,7 @@ export default {
       },
       {
         small: '\\',
-        shift: '|',
+        shift: '/',
         code: 'Backslash',
       },
       {
@@ -488,58 +488,58 @@ export default {
         code: 'CapsLock',
       },
       {
-        small: 'a',
-        shift: 'A',
+        small: 'ф',
+        shift: 'Ф',
         code: 'KeyA',
       },
       {
-        small: 's',
-        shift: 'S',
+        small: 'ы',
+        shift: 'Ы',
         code: 'KeyS',
       },
       {
-        small: 'd',
-        shift: 'D',
+        small: 'в',
+        shift: 'В',
         code: 'KeyD',
       },
       {
-        small: 'f',
-        shift: 'F',
+        small: 'а',
+        shift: 'А',
         code: 'KeyF',
       },
       {
-        small: 'g',
-        shift: 'G',
+        small: 'п',
+        shift: 'П',
         code: 'KeyG',
       },
       {
-        small: 'h',
-        shift: 'H',
+        small: 'р',
+        shift: 'Р',
         code: 'KeyH',
       },
       {
-        small: 'j',
-        shift: 'J',
+        small: 'о',
+        shift: 'О',
         code: 'KeyJ',
       },
       {
-        small: 'k',
-        shift: 'K',
+        small: 'л',
+        shift: 'Л',
         code: 'KeyK',
       },
       {
-        small: 'l',
-        shift: 'L',
+        small: 'д',
+        shift: 'Д',
         code: 'KeyL',
       },
       {
-        small: ';',
-        shift: ':',
+        small: 'ж',
+        shift: 'Ж',
         code: 'Semicolon',
       },
       {
-        small: "'",
-        shift: '"',
+        small: 'э',
+        shift: 'Э',
         code: 'Quote',
       },
       {
@@ -555,53 +555,53 @@ export default {
         code: 'ShiftLeft',
       },
       {
-        small: 'z',
-        shift: 'Z',
+        small: 'я',
+        shift: 'Я',
         code: 'KeyZ',
       },
       {
-        small: 'x',
-        shift: 'X',
+        small: 'ч',
+        shift: 'Ч',
         code: 'KeyX',
       },
       {
-        small: 'c',
-        shift: 'C',
+        small: 'с',
+        shift: 'С',
         code: 'KeyC',
       },
       {
-        small: 'v',
-        shift: 'V',
+        small: 'м',
+        shift: 'М',
         code: 'KeyV',
       },
       {
-        small: 'b',
-        shift: 'B',
+        small: 'и',
+        shift: 'И',
         code: 'KeyB',
       },
       {
-        small: 'n',
-        shift: 'N',
+        small: 'т',
+        shift: 'Т',
         code: 'KeyN',
       },
       {
-        small: 'm',
-        shift: 'M',
+        small: 'ь',
+        shift: 'Ь',
         code: 'KeyM',
       },
       {
-        small: ',',
-        shift: '<',
+        small: 'б',
+        shift: 'Б',
         code: 'Comma',
       },
       {
-        small: '.',
-        shift: '>',
+        small: 'ю',
+        shift: 'Ю',
         code: 'Period',
       },
       {
-        small: '/',
-        shift: '?',
+        small: '.',
+        shift: ',',
         code: 'Slash',
       },
       {
