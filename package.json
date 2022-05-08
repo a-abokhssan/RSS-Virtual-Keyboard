@@ -1,0 +1,25 @@
+{
+  "name": "rss-virtual-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linter": "eslint --fix '**/*.js' --ignore-pattern node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-abokhssan/RSS-Virtual-Keyboard.git"
+  },
+  "author": "Amir Abokhssan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-abokhssan/RSS-Virtual-Keyboard/issues"
+  },
+  "homepage": "https://github.com/a-abokhssan/RSS-Virtual-Keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
