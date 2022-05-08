@@ -1,0 +1,130 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.textarea {
+  background: black;
+  width: 1000px;
+  height: 350px;
+}
+
+textarea {
+  width: inherit;
+  height: inherit;
+  font-size: 32px;
+  padding: 20px;
+  resize: none;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  width: 1000px;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.keyboard__row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.keyboard__key {
+  height: 50px;
+  border: 1px solid rgb(0, 255, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  transition: 0.1s;
+}
+
+.keyboard__key--1 {
+  width: 60px;
+  background: gray;
+}
+
+.keyboard__key--1b {
+  width: 60px;
+  background: rgb(45, 15, 15);
+}
+
+.keyboard__key--1-5 {
+  width: 90px;
+  background: rgb(45, 15, 15);
+}
+
+.keyboard__key--2 {
+  width: 128px;
+  background: rgb(45, 15, 15);
+}
+
+.keyboard__key--2i {
+  width: 128px;
+  background: rgb(45, 15, 15);
+}
+
+.keyboard__key--2-3 {
+  width: 140px;
+  background: rgb(45, 15, 15);
+}
+
+.keyboard__key--5 {
+  width: 400px;
+  background: gray;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.press {
+  background-color: red;
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
